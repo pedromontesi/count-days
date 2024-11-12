@@ -1,0 +1,33 @@
+.years, .month, .days {
+    margin-bottom: 4rem;
+}
+
+.count-ymd {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem;
+}
+
+.count-ymd h1 {
+    margin-bottom: 1.25rem;
+}
+
+.count-ymd span {
+    color: #00FEFE;
+    font-size: 4rem;
+    line-height: 2.625rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+}
+
+.count-ymd h2 {
+    color: #005252;
+    font-size: 4rem;
+    line-height: 2.625rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin-top: 1.25rem;
+}
