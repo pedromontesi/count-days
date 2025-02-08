@@ -11,18 +11,18 @@ body {
 
 .content  img {
     box-shadow: 0px 0.0625rem 0.0625rem rgba(0, 0, 0, 0.25);
-    border-radius: 1.5rem;
+    border-radius: 3.125rem;
     object-fit: cover;
     height: 15rem;
     width: 13rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
 }
 
 .content  h1 {
     color: #005252;
     padding: 0.625rem 1rem;
     background-color: #00FEFE;
-    border-radius: 1.5rem;
+    border-radius: 3.125rem;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     box-shadow: 0px 0.0625rem 0.0625rem rgba(0, 0, 0, 0.25);
@@ -31,3 +31,9 @@ body {
     line-height: 1;
     cursor: pointer;
 }
+
+.hide {
+    display: none;
+    transition: transform 0.8s, opacity 0.8s;
+}
+

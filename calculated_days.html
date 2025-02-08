@@ -13,23 +13,24 @@
 </head>
 <body>
     <div class="count-ymd">
-        <div class="years">
-            <h1 > <span id="years">0</span></h1>
-            <h2>Anos.</h2>
+        <div class="years" data-anime="200" >
+            <h1><span id="years"></span></h1>
+            <h2>Anos</h2>
         </div>
 
-        <div class="month">
-            <h1><span id="months">0</span></h1> 
-            <h2>Meses.</h2>
+        <div class="month" data-anime="400">
+            <h1><span id="months" data-number></span></h1> 
+            <h2>Meses</h2>
         </div>
 
-        <div class="days">
-            <h1><span id="days">0</span></h1> 
-            <h2>Dias.</h2>
+        <div class="days" data-anime="600">
+            <h1><span id="days" data-number></span></h1> 
+            <h2>Dias</h2>
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="./js/modules/simple_anime.js"></script>
+    <script type="module" src="./script.js"></script>
 
 </body>
 </html>
